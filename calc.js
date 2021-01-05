@@ -21,18 +21,18 @@ const para = document.querySelector('p');
     sub=()=>{
      takeinput();
 
-     result= 'sum is'+(a-b);
+     result= 'substraction is'+(a-b);
      showResults();
     }
     div=()=>{
         takeinput();
    
-        result= 'sum is'+(a/b);
+        result= 'division is'+(a/b);
         showResults();
        }
        mul=()=>{
         takeinput();
    
-        result= 'sum is'+(a*b);
+        result= 'multiplication is'+(a*b);
         showResults();
        }
